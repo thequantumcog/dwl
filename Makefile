@@ -41,7 +41,7 @@ xdg-shell-protocol.h:
 config.h:
 	cp config.def.h $@
 clean:
-	rm -f config.h *.o *-protocol.h
+	rm -f dwl config.h *.o *-protocol.h
 
 dist: clean
 	mkdir -p dwl-$(VERSION)
